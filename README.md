@@ -2,17 +2,29 @@
 
 Twitter application for Android development project.
 
+## Function
+- Account authentication
+- Display timeline
+- Refresh timeline
+- Tweet
+- Retweet
+
 ## Before use this application
-Please register your   
-And make "res/values/strings.xml" file like the following...   
+First, please sign in [Twitter Developers](https://dev.twitter.com/) with your Twitter account.    
+
+Second, click "create a new application" and input your information.    
+
+Third, memo your ***Consumer ker*** and ***Consumer secret*** at "Details".
+
+Finally, make "res/values/strings.xml" file like the following...   
 ```
-><?xml version="1.0" encoding="utf-8"?>    
-><resources>
->
->    <string name="app_name">MyTwitter</string>
->    <string name="hello_world">Hello world!</string>
->    <string name="menu_settings">Settings</string>
->    <string name="twitter_consumer_key"> "Input Consumer key" </string>
->    <string name="twitter_consumer_secret"> "Input Consumer secret" </string>
-></resources>
+<?xml version="1.0" encoding="utf-8"?>    
+<resources>
+
+    <string name="app_name">MyTwitter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="twitter_consumer_key"> "Input Consumer key" </string>
+    <string name="twitter_consumer_secret"> "Input Consumer secret" </string>
+</resources>
 ```
