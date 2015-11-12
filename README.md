@@ -28,5 +28,7 @@ Finally, make "res/values/strings.xml" file like the following...
     <string name="twitter_consumer_secret"> "Input Consumer secret" </string>
     <string name="twitter_oauth">Authentication</string>
 	<string name="twitter_callback_url"> "Input Callback URL" </string>
+    <string name="menu_refresh">Refresh</string>
+	<string name="submit_tweet">Tweet</string>
 </resources>
 ```
