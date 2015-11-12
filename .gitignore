@@ -5,3 +5,5 @@ _includes
 _layouts
 gh-pages
 res/values/strings.xml
+libs/
+libs_meta
