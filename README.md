@@ -1,21 +1,20 @@
-Smart Image View for Android
-==============================
+# Twikon
 
-SmartImageView is a drop-in replacement for Android’s standard ImageView which additionally allows images to be loaded from URLs or the user’s contact address book. Images are cached to memory and to disk for super fast loading.
+Twitter application for Android development project.
+
+## Before use this application
+Please register your   
+And make "res/values/strings.xml" file like the following...   
+
+`<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTwitter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="twitter_consumer_key"> "Input Consumer key" </string>
+    <string name="twitter_consumer_secret"> "Input Consumer secret" </string>
+
+</resources>`
 
 
-Features
---------
-- Drop-in replacement for ImageView
-- Load images from a URL
-- Load images from the phone’s contact address book
-- Asynchronous loading of images, loading happens outside the UI thread
-- Images are cached to memory and to disk for super fast loading
-- SmartImage class is easily extendable to load from other sources
-
-
-Documentation, Features and Examples
-------------------------------------
-Full details and documentation can be found on the project page here:
-
-<http://loopj.com/android-smart-image-view/>
