@@ -14,7 +14,7 @@ First, please sign in [Twitter Developers](https://dev.twitter.com/) with your T
 
 Second, click "create a new application" and input your information.    
 
-Third, memo your ***Consumer ker*** and ***Consumer secret*** at "Details".
+Third, memo your ***Callback URL***, ***Consumer ker*** and ***Consumer secret*** at "Details".
 
 Finally, make "res/values/strings.xml" file like the following...   
 ```
@@ -26,5 +26,7 @@ Finally, make "res/values/strings.xml" file like the following...
     <string name="menu_settings">Settings</string>
     <string name="twitter_consumer_key"> "Input Consumer key" </string>
     <string name="twitter_consumer_secret"> "Input Consumer secret" </string>
+    <string name="twitter_oauth">Authentication</string>
+	<string name="twitter_callback_url"> "Input Callback URL" </string>
 </resources>
 ```
