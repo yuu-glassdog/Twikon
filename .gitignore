@@ -6,5 +6,6 @@ _layouts
 gh-pages
 res/values/strings.xml
 libs/*.jar
+!android-support-v4.jar
 libs/*.properties
 libs_meta/*.jar
