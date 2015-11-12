@@ -16,7 +16,7 @@ Second, click "create a new application" and input your information.
 
 Third, memo your ***Callback URL***, ***Consumer ker*** and ***Consumer secret*** at "Details".
 
-Finally, make "res/values/strings.xml" file like the following...   
+Fourth, make "res/values/strings.xml" file like the following...   
 ```
 <?xml version="1.0" encoding="utf-8"?>    
 <resources>
@@ -32,3 +32,7 @@ Finally, make "res/values/strings.xml" file like the following...
 	<string name="submit_tweet">Tweet</string>
 </resources>
 ```
+Finally, download Java library file and move to "libs/".
+- [Twitter4J](http://twitter4j.org/ja/index.html)
+- [Android Smart Image View](http://loopj.com/android-smart-image-view/)
+
