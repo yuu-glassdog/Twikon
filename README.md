@@ -5,7 +5,7 @@ Twitter application for Android development project.
 ## Before use this application
 Please register your   
 And make "res/values/strings.xml" file like the following...   
-
+```
 ><?xml version="1.0" encoding="utf-8"?>    
 ><resources>
 >
@@ -15,4 +15,4 @@ And make "res/values/strings.xml" file like the following...
 >    <string name="twitter_consumer_key"> "Input Consumer key" </string>
 >    <string name="twitter_consumer_secret"> "Input Consumer secret" </string>
 ></resources>
-
+```
